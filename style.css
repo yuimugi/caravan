@@ -3,13 +3,36 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: #6c6b6b;
+}
+
+a {
+  text-decoration: none;
 }
 
 header {
   width: 90%; /* 横幅90% */
   padding: 15px 0;
   margin: 0 auto;
+  text-align: center;
 }
+
+header .heading { /* headerタグ内のheadingクラスにのみ反映される */
+  font-size: 32px;
+}
+
+.nav-list {
+  text-align: center;
+  padding: 10px 0;
+  margin: 0 auto;
+}
+
+.nav-list-item {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+}
+
 .main-visual {
   width: 100%; /* 横幅いっぱい */
   height: 300px; /* 高さ300px */
@@ -38,6 +61,13 @@ header {
 }
 
 footer {
-  width: 100%; /* 横幅いっぱい */
-  height: 120px; /* 高さ120px */
+  width: 100%;
+  height: 120px;
+  text-align: center;
+  line-height: 120px;
+  background-color: #848282;
+}
+
+.footer-text {
+  color: #fff;
 }
